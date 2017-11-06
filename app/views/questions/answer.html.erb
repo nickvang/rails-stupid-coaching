@@ -1,3 +1,28 @@
-<%= @coach_answer %>
 
-<%= link_to "Ask another question?", ask_path %>
+<div class="site-wrapper">
+  <div class="site-wrapper-inner">
+
+    <div class="cover-container">
+
+      <header class="masthead clearfix">
+        <div class="inner">
+          <h3 href="ask" class="masthead-brand">Rails Stupid Coach</h3>
+        </div>
+      </header>
+
+      <main role="main" class="inner cover">
+        <h2 class="cover-heading"><%= @coach_answer %></h2>
+        <div class=" btn btn-secondary"> <%= link_to "Ask another question?", ask_path %></div>
+      </main>
+
+      <footer class="mastfoot">
+        <div class="inner">
+          <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+        </div>
+      </footer>
+
+    </div>
+
+  </div>
+
+</div>
